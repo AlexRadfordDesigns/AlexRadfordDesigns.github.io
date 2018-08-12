@@ -33,6 +33,9 @@ var TxtType = function(el, toRotate, period) {
         this.loopNum++;
         delta = 500;
         }
+        AOS.init({
+  duration: 1200,
+})
 
         setTimeout(function() {
         that.tick();
