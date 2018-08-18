@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>JS Typewriter</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display:400,400i,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+<p> When I grow up I'm going to be the navbar or some kind of home page like thing.</p>
+</head> 
+
+<body>
+
+
+    <div>
+    <h1> Pong: The Musical</h1>
+
+    <div>
+        <p>
+This project was a simple one for myself. The goal here is to create a simple game that runs on nice logic and is an easy target for myself. The reason being is that most projects end soon after the idea because sometimes they are over complicated. I wanted to create a number of games small in scope so I can show off (my many talents). This project was to create a nice feeling and simple game but with one huge difference. The games sound was reactive. There are some games (mostly those spoopy ones ) that have a reactive soundtrack often used to invoke fear or surprise. This however creates a unique soundtrack specific to how both players (Or player and cpu) are playing the game. Hopefully it peaks an interest for the music and game nerds out there. 
+        </p>
+    </div>
+    
+    <div>
+    Interested in playing this musical fantastical journey? Click the button below and play on this very site! The power of unity opengl marvelous.
+    </div>
+    
+    <div>
+    (Super magic unity player) #Think this needs to be done using iframe?
+    </div>
+    
+    <div>
+    <h3> You want to read more? You want to know how I did it? WELL FINE!</h3>
+        <p>
+            Okay so we are here now... I'll explain to you in the main categories of the development process for this. If you are interested in just the sound and music obviously you don't wanna read about how I calculated pong paddle hit detection and vectors... (If you are intersted in both you will get brownie points. It's your choice..)
+        </p>
+        
+    <h2>Programming</h2>
+    <p>So a majority of this kindly uses the unity2d physics engine with a large proportion of the calculations solely based on hit detection. We'll go through this in the kind of pseudocode and then move onto some of the major players of calculations. I'll be skipping the sound coding stuff here because it's going to be covered in the music and sound section.</p>
+    <h3>It starts with a ball and a lot of pseudocodes oh and stupid jokes.(I just want you to like me) </h3>
+        <p>So with pong if you don't have a ball it's just wiggle sticks (It's in the works I promise #gameoftheyeargoals). So we gotta drop that ball into play. Firstly we need it to always be moving, if it stops it'll end up like the horrible pauses we get in foosball. We also want it to bop into walls and the paddles. Finally we gotta reset it somehow and then we got our game.</p>
+        <h3> A puddle of paddles piddling about.</h3>
+        <p>Now we've got the basic ideas of our ball we need to think about what rules we have for our paddle. So we need it to wiggle/move up and down (Honestly stop pressuring me for wiggle sticks it's coming). But we don't want it to move away from the game screen, we've gotta limit that. We also need it to tell the ball that we are the paddle and will move it differently. If it just bounces that's going to be boring and won't involve any skillful play at all. </p>
+        <h3>He/she doesn't shoot but the ball goes to the correct position and he/she scores!</h3>
+        <p>So we've got our fun stuff now how do we all feel about rules! WOOO. Okay so without these badass trucks we got no game. We are going to have to try and calculate how many points you've got when you've won and some nice game logic to allow increase speed of the ball.</p>
+        
+        <h3> The code</h3>
+        <p>So you were only here to copy all my code... I'm hurt and offended. Actually go for it, a common misconception for coding is that it's all got to be from scratch and perfect. (That's a hard task and pointless why reinvent the wheel when it's fine the way it is.). Innovation is based on getting something good and polishing it till it's better... But enough talk, HAVE AT THEE! </p>
+        
+        <h3>Str8 up ballin'</h3>
+        <p>With reference to all our psuedocode let's explain what each element does and why. Often at times I look at sites and they just dump a huge load of code on me and I have no clue what's going on, so lets start simple. At the start of the game that ball has to move. So we apply a 'push' in this it's a velocity. <code> cody code.</code> Our ball exists at the start of the game and is nudged for us. What I've done in the unity engine is simply plonk a ball/sphere object in applied a rigidbody (This is a unity do physics stuff here thing), and then bingo we got a moving ball. The next thing is I changed some of the propeties of the ball so all it did was bounce. Think of it like a super rubber bounce ball (those were fun as a kid) and then we plonk it in space. The next few steps we have is if the ball hits a paddle we need to notify it to increase its speed/velocity. This is just because if it stays the same it'll be boring as. We </p>
+        <code></code>
+    <h2>Music/Sound</h2>  
+    <p></p>
+    <h2>Art</h2>
+    <p></p>
+    </div>
+
+
+
+    <script  src="js/pong.js"></script>
+
+
+
+
+</body>
+
+</html>
