@@ -1,0 +1,13 @@
+{
+"companyName": "Alex Radford",
+"productName": "Pong",
+"dataUrl": "textbased.data.unityweb",
+"asmCodeUrl": "textbased.asm.code.unityweb",
+"asmMemoryUrl": "textbased.asm.memory.unityweb",
+"asmFrameworkUrl": "textbased.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
